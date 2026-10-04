@@ -228,7 +228,7 @@ A inferência só é executada quando uma leitura válida de temperatura e umida
 
 ### Inferência INT8
 
-A evidência final deve registrar temperatura, umidade e a classe prevista pelo modelo INT8 no Serial Monitor.
+A simulação confirmou a execução da inferência INT8 no ESP32-S3, exibindo no Serial Monitor a temperatura, a umidade, a classe prevista e as saídas do modelo.
 
 ![Inferência INT8 no Wokwi](docs/imagens/04_wokwi_inferencia_int8.png)
 
