@@ -1,0 +1,33 @@
+{
+  "dataset": "atharvasoundankar/smart-farming-sensor-data-for-yield-prediction",
+  "records_used": 500,
+  "features": [
+    "temperature_C",
+    "humidity_%"
+  ],
+  "target": "condicao_ambiental",
+  "classes": [
+    "AMENO",
+    "INTERMEDIARIO",
+    "QUENTE_SECO",
+    "QUENTE_UMIDO"
+  ],
+  "selected_architecture": "B",
+  "parameters": 60,
+  "float32_accuracy": 0.9900000095367432,
+  "int8_accuracy": 0.99,
+  "float32_size_kb": 1.91796875,
+  "int8_size_kb": 2.265625,
+  "feature_mean": [
+    24.693574905395508,
+    65.08977508544922
+  ],
+  "feature_std": [
+    5.353726387023926,
+    14.494213104248047
+  ],
+  "input_scale": 0.014532666653394699,
+  "input_zero_point": -3,
+  "output_scale": 0.00390625,
+  "output_zero_point": -128
+}

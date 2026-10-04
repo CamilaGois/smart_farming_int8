@@ -3,3 +3,7 @@ sdkconfig.old
 .vscode/
 __pycache__/
 *.pyc
+build/
+managed_components/
+.vscode/
+sdkconfig.old
